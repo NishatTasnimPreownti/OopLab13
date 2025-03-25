@@ -83,6 +83,9 @@ public class Customer {
     void addBooking(Booking booking) {
         bookings.add(booking);
     }
+    void removeBooking(Booking booking) {
+        bookings.remove(booking);
+    }
 }
 
 
