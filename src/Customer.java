@@ -28,23 +28,62 @@ public class Customer {
 
     }
 
-    public String getUserID() { return userID; }
-    public String getName()   { return name; }
-    public String getEmail()  { return email; }
-    public String getPassword() { return password; }
-    public String getPhone()  { return phone; }
-    public String getAddress() { return address; }
-    public int getAge()       { return age; }
-    public List<Booking> getBookings() { return bookings; }
+    public String getUserID() {
+        return userID;
+    }
 
-    public void setName(String name)     { this.name = name; }
-    public void setEmail(String email)   { this.email = email; }
-    public void setPhone(String phone)   { this.phone = phone; }
-    public void setAddress(String address) { this.address = address; }
-    public void setAge(int age)         { this.age = age; }
+    public String getName() {
+        return name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public List<Booking> getBookings() {
+        return bookings;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 
     void addBooking(Booking booking) {
         bookings.add(booking);
+    }
+}
 
 
 
